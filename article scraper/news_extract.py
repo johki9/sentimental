@@ -44,7 +44,7 @@ def get_content_string(url):
 
 def find_occurrences(content_string):
     start_indices = [i for i in range(len(content_string)) if
-                     content_string.startswith('https://www.nytimes.com/2020', i)]
+                     content_string.startswith('https://www.nytimes.com/', i)]
     end_indices = [i for i in range(len(content_string)) if content_string.startswith('.html', i)]
     end_indices = [x + 5 for x in end_indices]
 

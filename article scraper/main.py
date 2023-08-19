@@ -3,6 +3,10 @@ from news_extract import *
 from news_scrape import *
 from news_nlp import *
 import time
+#import nltk
+#nltk.download('punkt')
+  
+
 
 # Welcome Messages and Introduction
 print("Welcome to the Newspaper Scrape Project. \nIn seconds, you will have access to the latest articles "
