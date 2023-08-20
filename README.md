@@ -1,6 +1,6 @@
 # Introduction
 
-An online article scraper, which uses advanced natural language processing techniques, sentiment analysis, and web scraping to extract summaries, metadata, and levels of polarity and subjectivity from articles on the New York Times' technology section.
+An online article scraper, which uses advanced natural language processing techniques, sentiment analysis, and web scraping to extract summaries, metadata, and levels of polarity and subjectivity from Yahoo Finance News articles.
 
 
 # Dependencies
