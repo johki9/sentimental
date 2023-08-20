@@ -11,3 +11,5 @@ An online article scraper, which uses advanced natural language processing techn
 * newspaper3k - Package Install: pip install newspaper3k
 * requests - Package Install: pip install requests
 * bs4 (BeautifulSoup) - Package Install: pip install bs4
+
+![image](https://github.com/johnk726/article-scraper/assets/57364895/7dd4b95e-d09d-44e9-b0c8-0715f9ad66b3)
