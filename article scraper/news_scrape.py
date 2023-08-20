@@ -1,6 +1,6 @@
-# Description: This program scrapes and summarizes news articles from the New York Times.
-
 from newspaper import Article
+# import nltk
+# nltk.download('punkt')
 
 
 # Summarizes the article and provides valuable information regarding the article metadata, including images and
@@ -25,7 +25,11 @@ def summarize_article(url):
 
     # strftime() converts a tuple or struct_time representing a time to a string as specified by the format argument.
     # Here, it is used to mark the month, day, and year of the date in a readable format.
-    print("Publish Date: " + str(date.strftime("%m/%d/%Y")))
+    try:
+        print("Publish Date: " + str(date.strftime("%m/%d/%Y")))
+    except:
+        print("Publish Date: Unable to parse")
+
 
     # Gets the top image of the article
     print("Top Image Url: " + str(article.top_image))
@@ -43,3 +47,5 @@ def summarize_article(url):
     print(article.summary)
 
     return article.summary
+
+
