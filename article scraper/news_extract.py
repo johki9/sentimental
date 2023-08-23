@@ -12,6 +12,7 @@ my_url = "https://finance.yahoo.com/news"
 # 1. Gets a script of all the HTML on the page.
 # 2. Gets an article list - a snippet of the HTML outline including all of the articles.
 # 3. Formats the list.
+# 4. Concatenate the base URL with the unique article links.
 
 
 def get_content_string(url):
